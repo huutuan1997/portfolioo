@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+.container{
+	width: 1120px;
+	margin: 0 auto;
+	position: relative
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.align-bot{
+	align-items: flex-end
+}
+.f-end{
+	display:flex;
+	justify-content: flex-end
+}
+.align-cen{
+	justify-content:flex-end;
+	align-content: center;
+	display:flex
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%;
+}
+/*-----spacing-----*/
+/*padding*/
+.p-1{
+	padding: 4px	
+}
+.px-1{
+	padding: 0 4px
+}
+.py-1{
+	padding:4px 0
+}
+.pr-1{
+	padding-right:4px
+}
+.pl-1{
+	padding-left: 4px
+}
+.pt-1{
+	padding-top: 4px
+}
+.pb-1{
+	padding-bottom: 4px
+}
+.pt-2{
+	padding: 8px 0 8px 5px
+}
+.px-3{
+	padding:0 12px
+}
+.px-5{
+	padding: 0 20px
+}
+.py-3{
+	padding: 12px 0
+}
+.pt-3{
+	padding: 12px 0
+}
+.py-6{
+	padding: 24px 0 0 
+}
+.pt-6{
+	padding: 24px 0
+}
+.pt-10{
+	padding: 40px 0
+}
+.py-18{
+	padding: 72px 0  
+}
+.py-22{
+	padding: 88px 0
+}
+.mx-auto{
+	margin:0 auto
+}
+.mr-5{
+	margin-right:20px
+}
+.my-7{
+	margin: 28px 0
+}
+.mt-18{
+	margin-top:72px
+}
+.mt-20{
+	margin-top:80px
+}
+.ml-40{
+	margin-left: 120px
+}
+.pd-1{
+	padding: 10px 0 auto 
+}

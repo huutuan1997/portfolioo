@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+@font-face{
+	font-family:"Champagne & Limousines";
+	src:url(" ../font/Champagne & Limousines Bold Italic.ttf" );
+	font-style: italic
+}
+@font-face{
+	font-family: "Champagne & Limousines";
+	src:url("../font/Champagne & Limousines Bold.ttf");
+	font-style: bold ;
+}
+@font-face{
+	font-family: "Champagne & Limousines";
+	src:url("../font/Champagne & Limousines.ttf");
+	font-style: normal
+}
+@font-face{
+	font-family:"La Gagliane";
+	src:url("../font/La-Gagliane.otf");
+	font-style: normal
+}
+body{
+	background: rgba(26,26,26,1.00);
+}
+html{
+	scroll-behavior: smooth
+}
+
+p{
+	font-family: "Champagne & Limousines";
+	font-size: 20px;
+	color: rgba(232,232,232,1.00);
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+ a{
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: rgba(232,232,232,1.00);
+	font-size: 20px;
+	font-family: "Champagne & Limousines";
+	font-weight: 500
+}
+.header{
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.logo{
+	position:relative;
+	padding-top: 8px
+}
+.text{
+	position: absolute;
+	top:25px;
+	left:30%
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+/*	background: aqua;*/
+}
+.nav li{
+	margin-left: 16px
+}
+.nav li a{
+	text-decoration: none;
+	color: white
+}
+.nav li a:hover{
+	opacity: 0.5
+}
+.box a{
+	border: 2px solid #E7E7E7;
+	border-radius: 35px;
+	padding: 5px 10px;
+	color: white;
+}
+.box a:hover{
+	background: #D1D0D0;
+	color:black;
+	transition-duration: 1s
+}
+/*HEADER;*/ 
+
+.box-text{
+	width:100%;
+	position: absolute;
+	top: 130px;
+	z-index: 1
+}
+.box-text h1{
+	font-family:"La Gagliane";
+	font-size:200px;
+	color: #C3C3C3;
+	opacity: 0.1
+}
+.fu-img{
+	height: 550px;
+	position: absolute;
+	left:600px;
+	z-index: 999;
+	top:60px;
+	outline: 16px solid #454477;
+	outline-offset: 6px;
+}
+.left-text{
+	position: absolute;
+	top:380px;
+	left: 50px
+}
+.left-text h2{
+	font-family:"La Gagliane";
+	color:#CCCCCC;
+	font-size:50px;	
+}
+
+.about-me{
+/*	background: red;*/
+	padding: 400px 0 350px;
+	display: flex;
+	flex-wrap: wrap
+}
+.line{
+	width:100%;
+	height:5px;
+	background: white;
+	position: absolute;
+	top:280px
+}
+      /*contenttt*/
+
+.title{	
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+/*	background: blue*/
+}
+.icon{
+/*	background: red;*/
+	position: relative;
+	top:15px
+}
+.icon a{
+	font-size: 30px;
+	color: #CCCCCC;
+/*	padding-top: 40px;*/
+	
+}
+.about h1{
+	font-family:"La Gagliane";
+	font-size: 30px;
+	color: #CCCCCC;
+}
+.content h3{
+	color:#CCCCCC;
+	font-size: 24px;
+	font-family:"Champagne & Limousines";
+	letter-spacing: 2px;
+	font-weight: 300;
+	padding-bottom: 50px
+}
+.skill{
+	position: relative;
+	z-index: 100;
+	bottom:15px
+}
+.skill h2{
+	font-family:"Champagne & Limousines";
+	font-size:24px;
+	color:#cccccc;
+	letter-spacing: 2px
+}
+.line-1 {
+	-webkit-border-radius: 0px 40px 40px 0px;
+-moz-border-radius: 0px 40px 40px 0px;
+border-radius: 0px 40px 40px 0px;
+	width:40%;
+	height:10px;
+	background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	position: relative;
+	z-index: 10
+}
+.line-2{
+	-webkit-border-radius: 0px 40px 40px 0px;
+-moz-border-radius: 0px 40px 40px 0px;
+border-radius: 0px 40px 40px 0px;
+	width:40%;
+	height:10px;
+	background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+	z-index: 10
+
+}
+.line-3{
+	-webkit-border-radius: 0px 40px 40px 0px;
+-moz-border-radius: 0px 40px 40px 0px;
+border-radius: 0px 40px 40px 0px;
+	width:40%;
+	height:10px;
+	background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+	z-index: 10
+
+}
+.line-4{
+	-webkit-border-radius: 0px 40px 40px 0px;
+	-moz-border-radius: 0px 40px 40px 0px;
+	border-radius: 0px 40px 40px 0px;
+	width:40%;
+	height:10px;
+	background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+	z-index: 10
+}
+.tune-1{
+	position: absolute;
+	z-index: 11;
+	width:70%;
+	height: 10px;
+	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-border-radius: 0px 40px 40px 0px;
+	-moz-border-radius: 0px 40px 40px 0px;
+	border-radius: 0px 40px 40px 0px;
+}
+.tune-2{
+	position: absolute;
+	z-index: 11;
+	width:80%;
+	height: 10px;
+	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-border-radius: 0px 40px 40px 0px;
+	-moz-border-radius: 0px 40px 40px 0px;
+	border-radius: 0px 40px 40px 0px;
+}
+.tune-3{
+	position: absolute;
+	z-index: 11;
+	width:67%;
+	height: 10px;
+	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-border-radius: 0px 40px 40px 0px;
+	-moz-border-radius: 0px 40px 40px 0px;
+	border-radius: 0px 40px 40px 0px;
+}
+.tune-4{
+	position: absolute;
+	z-index: 11;
+	width:50%;
+	height: 10px;
+	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-border-radius: 0px 40px 40px 0px;
+	-moz-border-radius: 0px 40px 40px 0px;
+	border-radius: 0px 40px 40px 0px;
+}
+.boxx{
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	font-size: 40px;
+	top:180px;
+	z-index: 12;
+	left:780px;
+	color:white;
+	padding-bottom:1px
+}
+.boxx ion-icon{
+	margin: 0 10px;
+	padding: 1px 0
+}
+.text-1{
+	position: absolute;
+	bottom:60px;
+	left:10px;
+	z-index: 6
+}
+.text-1 h2{
+	font-family:"Champagne & Limousines";
+	font-weight:300;
+	font-size: 24px;
+	word-spacing: 5px
+}
+.imgg{
+	position: absolute;
+	top: -400px;
+	left: -58px;
+	z-index: 9;
+	border: 4px solid white;
+	padding-bottom: 110px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px
+}
+.imgg img{
+	width:250px;
+	height: 250px;
+}
+
+.sec-project {
+	text-align: center
+}
+.sec-project h1{
+	font-family:"La Gagliane";
+	font-size: 30px;
+	color: #CCCCCC;
+	padding: 80px 0 20px
+}
+.sec-project p{
+	letter-spacing: 2px
+}
+.sec-project ion-icon{
+	font-size: 30px;
+	color:#CCCCCC;
+	position: absolute;
+	left: 63%;
+	top:1350px	;
+	z-index: 99999
+}
+.title-2{
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 auto;
+	padding-bottom: 50px
+}
+.title-2 p{
+	font-size: 12px;
+	font-weight: 600
+}
+.title-2 p:hover{
+	color:black
+}
+.tag-1{
+	width:100px;
+	-webkit-border-radius: 32px;
+-moz-border-radius: 32px;
+border-radius: 32px;
+	background: rgba(130,0,2,1.00);
+	margin-right: 10px
+}
+.color-1{
+	background: rgba(15,58,0,1.00)
+}
+.color-2{
+	background: rgba(0,11,66,1.00)
+}
+.color-3{
+	background: rgba(138,61,2,1.00)
+}
+/*project*/
+.pro-left img{
+	width:80%;
+	padding: 0 30px
+}
+.pro-left h1{
+	font-family:"La Gagliane";
+	font-size: 20px;
+	color:#CCCCCC;
+	padding: 10px 0 20px 30px
+}
+.tag{
+	position: absolute;
+	left:25px;
+	bottom: 60px
+}
+.tag1{
+	position: absolute;
+	left:135px;
+	bottom: 60px
+}
+.tag2{
+	position: absolute;
+	left:25px;
+	bottom: 455px;
+	z-index: 99999
+}
+.tag3{
+	position: absolute;
+	left:135px;
+	bottom: 455px;
+	z-index: 99999
+}
+.tag4{
+	position: absolute;
+	right:300px;
+	bottom: 455px
+}
+.tag5{
+	position: absolute;
+	right:190px;
+	bottom: 455px
+}
+.tag6{
+	position: absolute;
+	right:300px;
+	bottom: 60px
+}
+.tag7{
+	position: absolute;
+	right:190px;
+	bottom: 60px
+}
+/*lefttt*/
+.hinh-3{
+	margin-left: 130px;
+	margin-top: 5px
+}
+.hinh-4{
+	margin-left: 130px;
+	margin-bottom: 10px
+}
+.pro-right img{
+	width: 430px;
+	padding: 0 30px
+}
+.pro-right h1{
+	font-family:"La Gagliane";
+	font-size: 20px;
+	color:#CCCCCC;
+	padding: 10px 0 20px 30px
+}
+.view{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 100px;
+	
+}
+.view h2{
+	font-family:"Champagne & Limousines";
+	color: #CCCCCC;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	padding: 2px 20px;
+/*	background: rgba(143,38,39,1.00);*/
+	border: 1.5px solid #CCCCCC;
+	border-radius: 40px;
+}
+.view h2:hover{
+	background: #CCCCCC;
+	color: rgba(15,12,12,1.00);
+	transition-duration: 1s
+}
+/*mainnnnn*/
+#footer{
+	background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	width:100%;
+}
+
+.contact-1 h1{
+	font-family:"La Gagliane";
+	font-size: 50px;
+	padding-top: 35px 
+}
+.contact-1 h2{
+	font-family:"Champagne & Limousines";
+	font-size:32px;
+	margin-left: 10px;
+	letter-spacing:2px;
+}
+.contact-1 h3{
+	font-family:"Champagne & Limousines";
+	font-size: 30px;
+	letter-spacing: 3px;
+	padding: 10px 0;
+	color:black
+}
+.contact-1 h3:hover{
+	opacity: 0.7
+}
+.contact-1 ion-icon{
+	color:rgba(27,27,27,1.00);
+	font-size: 40px;
+	padding: 30px 5px
+}
+.contact-1 h4{
+	font-family:"Champagne & Limousines";
+	font-size: 12px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	padding: 177px 0 30px;
+}
+.contact-2 h3{
+	padding: 40px 50px 100px 60px;
+	margin-left: 300px;
+	font-family:"Champagne & Limousines";
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: rgba(15,14,14,1.00)
+}
+.form{
+	width:70%;
+	height:370px;
+	padding: 10px 10px ;
+	background: rgba( 25, 23, 23, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.form h2{
+	font-family:"La Gagliane";
+	font-size: 30px;
+	margin-left: 30px
+}
+.form ion-icon{
+	position: absolute;
+	left:320px;
+	font-size: 30px;
+	bottom:335px
+}
+.form p{
+	font-family:"Champagne & Limousines";
+	color:rgba(15,14,14,1.00);
+	font-weight: bold;
+}
+.form table input{
+	width:365px;
+	height:30px;
+	 border: none;
+	background: rgba(228,218,218,1.00);
+	font-family:"Champagne & Limousines";
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	font-size: 14px
+}
+input[type=text], input[type="email"]{
+	padding-left: 5px
+}
+.form table input:focus{
+	outline: none
+}
+button {
+	padding: 3px 20px;
+	background:  rgba(30,29,29,1.00);
+	color:rgba(237,232,233,1.00);
+	cursor: pointer;
+	border-radius: 10px;
+	
+}
+td{
+	padding-top: 10px 
+}
+
+.content-right h4{
+	font-family:"Champagne & Limousines";
+	font-size: 12px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	padding: 115px 40px 30px;
+	display: flex;
+	justify-content: flex-end
+}
